@@ -1,88 +1,64 @@
+# 🛡️ Week 1 — Cybersecurity Lab Setup & Network Analysis
 
-# 🛡️ Week 1 — Cybersecurity Lab Setup
+## 📌 Project Overview
 
-<div align="center">
+This repository documents my Week 1 hands-on learning in cybersecurity through two practical projects: **Kali Linux Lab Setup** and **Wireshark Network Traffic Analysis**.
 
-![Cybersecurity](https://img.shields.io/badge/Cybersecurity-Lab-red?style=for-the-badge)
-![Kali Linux](https://img.shields.io/badge/Kali-Linux-blue?style=for-the-badge&logo=kalilinux)
-![VirtualBox](https://img.shields.io/badge/VirtualBox-Setup-183A61?style=for-the-badge&logo=virtualbox)
-![Status](https://img.shields.io/badge/Status-Completed-success?style=for-the-badge)
-
-**My first hands-on cybersecurity lab using Kali Linux and VirtualBox.**
-
-</div>
+The first project focuses on building a virtual cybersecurity lab using Kali Linux and VirtualBox. The second focuses on analyzing network traffic, identifying protocols, and understanding basic network security concepts through guided Wireshark labs.
 
 ---
 
-## 📌 About This Project
+## 📁 Project 1: Kali Linux & VirtualBox Setup
 
-This repository documents my Week 1 cybersecurity lab setup. I configured Kali Linux in VirtualBox, checked network connectivity, set up a shared folder, enabled integration features, and created a virtual machine snapshot.
+### Overview
+Configured a Kali Linux virtual machine in Oracle VirtualBox to create a basic environment for cybersecurity practice and networking experiments.
 
-## ⚙️ Lab Configuration
+### Work Completed
+- Set up Kali Linux in VirtualBox.
+- Configured a NAT Network with the IPv4 prefix `10.0.0.0/24`.
+- Checked the Kali Linux IP address and network connectivity.
+- Tested internet access using ping.
+- Configured a shared folder with `/downloads` as the mount point.
+- Enabled Shared Clipboard and Drag and Drop.
+- Created the `Week1-Setup-Complete` virtual machine snapshot.
 
-| Component | Configuration |
-|:--|:--|
-| Operating System | Kali Linux |
-| Virtualization | Oracle VirtualBox |
-| Network Mode | NAT Network |
-| Network Name | `NatNetwork` |
-| Network Prefix | `10.0.0.0/24` |
-| Kali Linux IP | `10.0.0.2/24` |
-| Shared Folder | `/downloads` |
-| VM Snapshot | `Week1-Setup-Complete` |
+**Key Learning:** Virtual machine configuration, basic networking, connectivity testing, and lab environment management.
 
-## ✅ Tasks Completed
+📂 **Project folder:** [`01-Kali-Linux-Setup`](01-Kali-Linux-Setup/)
 
-- [x] Set up Kali Linux in VirtualBox
-- [x] Configured the NAT Network
-- [x] Verified the Kali Linux IP address
-- [x] Tested internet connectivity using `ping`
-- [x] Configured the shared folder
-- [x] Enabled Shared Clipboard
-- [x] Enabled Drag and Drop
-- [x] Created a VM snapshot
+---
 
-## 🌐 Connectivity Test
+## 📁 Project 2: Wireshark Network Traffic Analysis
 
-Command used:
+### Overview
+Completed guided Wireshark labs to explore captured network traffic, identify communication protocols, and understand how network data can reveal security-related information.
 
-```bash
-ping -c 4 google.com
-```
+### Work Completed
+- Explored the Protocol Hierarchy to identify protocols in captured traffic.
+- Used display filters to examine relevant packets.
+- Practiced analyzing FTP traffic and understanding the risks of transmitting sensitive information without encryption.
+- Explored SIP and RTP traffic in a simulated voice-call scenario.
+- Learned how secure protocols help protect data during communication.
 
-**Result:** Successful replies received with 0% packet loss.
+**Key Learning:** Packet analysis, protocol identification, display filters, and the importance of protecting network communications.
 
-## 📸 Lab Screenshots
+📂 **Project folder:** [`02-Wireshark-Labs`](02-Wireshark-Labs/)
 
-Screenshots documenting the completed setup will be uploaded to this repository.
+---
 
-<!-- Add screenshot images here after uploading them to GitHub. -->
+## 🧰 Tools Used
+- Kali Linux
+- Oracle VirtualBox
+- Wireshark
 
-## 💡 What I Learned
+## 🎯 Learning Outcomes
 
-- Basic virtual machine configuration
-- NAT Network setup in VirtualBox
-- IP address verification
-- Internet connectivity testing
-- Shared folder and integration settings
-- The importance of VM snapshots for recovery
+Through these projects, I practiced setting up a virtual cybersecurity lab, troubleshooting basic network connectivity, inspecting network traffic, and recognizing the importance of secure communication protocols.
 
 ## 🔐 Responsible Use
 
-This lab is intended for cybersecurity education and authorized testing only.
-
-## 🔗 Tools Used
-
-- [Kali Linux](https://www.kali.org/)
-- [Oracle VirtualBox](https://www.virtualbox.org/)
+These exercises were completed for educational purposes in guided lab environments. Any shared screenshots or files should exclude passwords, payment details, and other sensitive information.
 
 ---
 
-<div align="center">
-
-**🚀 Learning by Doing — One Lab at a Time**
-
-*Week 1 | Cybersecurity Lab Setup*
-
-</div>
-
+**Week 1 | Cybersecurity Learning Journey**
